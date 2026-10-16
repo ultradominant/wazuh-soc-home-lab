@@ -1,0 +1,2 @@
+<!-- Insert inside the existing syscheck block on the endpoint. -->
+<directories check_all="yes" realtime="yes" report_changes="yes">/opt/fim-lab</directories>

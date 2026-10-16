@@ -1,0 +1,27 @@
+# Local secrets and installation output
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+client.keys
+wazuh-install-files.tar
+wazuh-passwords.txt
+wazuh-install.sh
+*.deb
+*.rpm
+# Virtual machines and local archives
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.iso
+*.sav
+*.zip
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
