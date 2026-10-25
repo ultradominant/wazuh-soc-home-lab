@@ -1,0 +1,4 @@
+services:
+  dvwa:
+    volumes:
+      - /var/log/dvwa:/var/log/apache2

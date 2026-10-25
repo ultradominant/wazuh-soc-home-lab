@@ -1,0 +1,6 @@
+172.18.0.1 - - [25/Oct/2026:13:11:30 +0000] "GET /vulnerabilities/sqli/?id=1&Submit=Submit HTTP/1.1" 200 1833 "http://127.0.0.1:4280/vulnerabilities/sqli/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+172.18.0.1 - - [25/Oct/2026:13:14:33 +0000] "GET /vulnerabilities/sqli/?id=1%27+OR+%271%27%3D%271&Submit=Submit HTTP/1.1" 200 1892 "http://127.0.0.1:4280/vulnerabilities/sqli/?id=1&Submit=Submit" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+172.18.0.1 - - [25/Oct/2026:18:50:00 +0000] "GET /vulnerabilities/sqli/?id=2&Submit=Submit HTTP/1.1" 200 1000 "-" "lab-test-A"
+172.18.0.1 - - [25/Oct/2026:18:50:01 +0000] "GET /security.php HTTP/1.1" 200 1000 "http://127.0.0.1:4280/vulnerabilities/sqli/?id=1%27+OR+%271%27%3D%271&Submit=Submit" "lab-test-B"
+172.18.0.1 - - [25/Oct/2026:18:50:02 +0000] "GET /vulnerabilities/sqli/?id=1%27+OR+%272%27%3D%272&Submit=Submit HTTP/1.1" 200 1000 "-" "lab-test-C"
+172.18.0.1 - - [25/Oct/2026:12:46:17 +0000] "GET /wazuh-pipeline-check-20261025 HTTP/1.1" 404 474 "-" "curl/8.18.0"

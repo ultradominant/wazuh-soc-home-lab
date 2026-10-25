@@ -84,3 +84,7 @@ MITRE tags do not establish malicious intent, and alert counts are not equivalen
 - [Chrony command reference](https://chrony-project.org/doc/4.4/chronyc.html)
 
 Only documentation, configuration fragments, and reviewed lab evidence are included. Credentials, agent keys, private certificates, installation archives, and VM images are excluded.
+
+## Web Attack Detection
+
+[DVWA SQL Injection Detection](web-attack-detection/README.md): Apache access log collection, a custom Wazuh rule, live alert verification, and documented detection limitations.
